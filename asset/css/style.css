@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+}
+
+.contactos {
+  width: 20vw;
+  min-height: 100vh;
+  min-width: 250px;
+  border-right: 1px solid #bec1bb;
+}
+
+.seccion-principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8ebe4;
+}
+
+.usuario-conectado {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #bec1bb;
+}
+
+.avatar-usuario-conectado img {
+  border-radius: 50%;
+}
+
+.datos-usuario-conectado {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.iconos-usuario-conectado {
+  display: flex;
+  justify-content: end;
+  color: #bec1bb;
+}
+
+.fa-regular {
+  margin-right: 8px;
+}
+
+.nuevo-chat {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #bec1bb;
+  padding: 1.5rem;
+}
+
+.boton-nuevo-chat {
+  background-color: #790614;
+  color: white;
+  text-decoration: none;
+  border: 0;
+  padding: 1rem;
+  width: 80%;
+}
+
+.contacto-chat {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #bec1bb;
+}
+
+.contacto-chat img {
+  border-radius: 50%;
+}
+
+.datos-contacto-chat {
+  margin: 0.5rem;
+}
+
+.estilo-maria {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.estado-maria {
+  color: #bec1bb;
+  font-size: 10px;
+}
+
+.tamaño-letra {
+  font-size: 13px;
+}
